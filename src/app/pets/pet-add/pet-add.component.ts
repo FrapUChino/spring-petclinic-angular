@@ -37,7 +37,7 @@ import * as moment from 'moment';
   templateUrl: './pet-add.component.html',
   styleUrls: ['./pet-add.component.css']
 })
-// Here's another comment to test travisCI
+// Here's another comment to test travisCI a second time
 export class PetAddComponent implements OnInit {
   pet: Pet;
   @Input() currentType: PetType;
