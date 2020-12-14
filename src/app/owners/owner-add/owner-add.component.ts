@@ -53,6 +53,7 @@ export class OwnerAddComponent implements OnInit {
     );
   }
 
+  // Just a comment
   gotoOwnersList() {
     this.router.navigate(['/owners']);
   }
