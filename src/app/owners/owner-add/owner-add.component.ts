@@ -34,7 +34,7 @@ export class OwnerAddComponent implements OnInit {
 
   owner: Owner;
   errorMessage: string;
-
+// una commentatos :))
   constructor(private ownerService: OwnerService, private router: Router) {
     this.owner = {} as Owner;
   }
