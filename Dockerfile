@@ -16,7 +16,7 @@ RUN echo "registry = \"$NPM_REGISTRY\"" > /workspace/.npmrc                     
 
 #ARG NGINX_VERSION="1.17.6"
 #FROM $DOCKER_HUB/library/nginx:$NGINX_VERSION AS runtime
-FROM nginx AS runtime
+FROM nginx AS runtimed
 
 
 COPY  --from=build /workspace/dist/ /usr/share/nginx/html/
